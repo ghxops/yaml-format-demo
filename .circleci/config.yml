@@ -1,5 +1,6 @@
 version: 2
 jobs:
+  foo: bar
   build:
     docker:
       - image: circleci/<language>:<version TAG>
